@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "timestamp": "2025-01-05T12:36:59.523091",
+    "parameters": {
+      "epochs": 25,
+      "batch_size": 256,
+      "learning_rate": 0.1
+    }
+  },
+  "results": {
+    "Python": {
+      "training_time": 0.203,
+      "accuracy": 100.0,
+      "final_loss": 0.126387
+    },
+    "Go": {
+      "training_time": 0.216,
+      "accuracy": 50.0,
+      "final_loss": 0.2301
+    },
+    "Typescript": {
+      "training_time": 2.937,
+      "accuracy": 50.0,
+      "final_loss": 0.2501
+    }
+  },
+  "profiling_results": {
+    "Python": {
+      "execution_time": 0.20271706581115723,
+      "memory_peak": 0.00011444091796875,
+      "memory_diff": 0.625,
+      "cpu_percent": 0.0
+    },
+    "Go": {
+      "execution_time": 0.21633601188659668,
+      "memory_peak": 5.340576171875e-05,
+      "memory_diff": 0.0,
+      "cpu_percent": 0.0
+    },
+    "Typescript": {
+      "execution_time": 2.9373257160186768,
+      "memory_peak": 5.340576171875e-05,
+      "memory_diff": 0.0,
+      "cpu_percent": 0.0
+    }
+  }
+}

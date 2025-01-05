@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "timestamp": "2025-01-05T11:17:48.992306",
+    "parameters": {
+      "epochs": 1000,
+      "batch_size": 32,
+      "learning_rate": 0.1
+    }
+  },
+  "results": {
+    "Python": {
+      "training_time": 0.191,
+      "accuracy": 100.0,
+      "final_loss": 0.123167
+    },
+    "Go": {
+      "training_time": 0.104,
+      "accuracy": 50.0,
+      "final_loss": 0.2301
+    },
+    "Typescript": {
+      "training_time": 2.992,
+      "accuracy": 75.0,
+      "final_loss": 0.2477
+    }
+  }
+}
