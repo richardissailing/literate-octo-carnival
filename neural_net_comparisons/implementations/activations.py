@@ -1,6 +1,6 @@
 import math
-from typing import Callable, List
 from dataclasses import dataclass
+from typing import Callable, List, Dict
 
 
 @dataclass
@@ -8,6 +8,7 @@ class ActivationFunction:
     forward: Callable[[float], float]
     backward: Callable[[float], float]
     name: str
+
 
 class ActivationFunctions:
     @staticmethod
@@ -17,7 +18,7 @@ class ActivationFunctions:
         if x < -32:  # Avoid underflow
             return 0.0
         return 1.0 / (1.0 + math.exp(-x))
-    
+
     @staticmethod
     def sigmoid_derivative(x: float) -> float:
         sx = ActivationFunctions.sigmoid(x)
@@ -26,7 +27,7 @@ class ActivationFunctions:
     @staticmethod
     def relu(x: float) -> float:
         return max(0.0, x)
-    
+
     @staticmethod
     def relu_derivative(x: float) -> float:
         return 1.0 if x > 0 else 0.0
@@ -34,7 +35,7 @@ class ActivationFunctions:
     @staticmethod
     def tanh(x: float) -> float:
         return math.tanh(x)
-    
+
     @staticmethod
     def tanh_derivative(x: float) -> float:
         tx = math.tanh(x)
@@ -43,7 +44,7 @@ class ActivationFunctions:
     @staticmethod
     def leaky_relu(x: float, alpha: float = 0.01) -> float:
         return x if x > 0 else alpha * x
-    
+
     @staticmethod
     def leaky_relu_derivative(x: float, alpha: float = 0.01) -> float:
         return 1.0 if x > 0 else alpha
@@ -52,31 +53,30 @@ class ActivationFunctions:
     def get_activation_pair(name: str) -> ActivationFunction:
         """Get activation function and its derivative by name"""
         activations: Dict[str, ActivationFunction] = {
-            'sigmoid': ActivationFunction(
+            "sigmoid": ActivationFunction(
                 ActivationFunctions.sigmoid,
                 ActivationFunctions.sigmoid_derivative,
-                'sigmoid'
+                "sigmoid",
             ),
-            'relu': ActivationFunction(
+            "relu": ActivationFunction(
                 ActivationFunctions.relu,
                 ActivationFunctions.relu_derivative,
-                'relu'
+                "relu"
             ),
-            'tanh': ActivationFunction(
-                ActivationFunctions.tanh,
-                ActivationFunctions.tanh_derivative,
-                'tanh'
+            "tanh": ActivationFunction(
+                ActivationFunctions.tanh, ActivationFunctions.tanh_derivative,
+                "tanh"
             ),
-            'leaky_relu': ActivationFunction(
+            "leaky_relu": ActivationFunction(
                 lambda x: ActivationFunctions.leaky_relu(x),
                 lambda x: ActivationFunctions.leaky_relu_derivative(x),
-                'leaky_relu'
-            )
+                "leaky_relu",
+            ),
         }
-        
+
         if name not in activations:
             raise ValueError(f"Unknown activation function: {name}")
-        
+
         return activations[name]
 
     @staticmethod
@@ -163,26 +163,20 @@ class ActivationFunctionFactory:
     def get(name: str) -> ActivationFunction:
         """Get activation function by name"""
         functions = {
-            'sigmoid': ActivationFunction(
-                Activations.sigmoid,
-                Activations.sigmoid_derivative,
-                'sigmoid'
+            "sigmoid": ActivationFunction(
+                Activations.sigmoid, Activations.sigmoid_derivative, "sigmoid"
             ),
-            'tanh': ActivationFunction(
-                Activations.tanh,
-                Activations.tanh_derivative,
-                'tanh'
+            "tanh": ActivationFunction(
+                Activations.tanh, Activations.tanh_derivative, "tanh"
             ),
-            'relu': ActivationFunction(
-                Activations.relu,
-                Activations.relu_derivative,
-                'relu'
+            "relu": ActivationFunction(
+                Activations.relu, Activations.relu_derivative, "relu"
             ),
-            'leaky_relu': ActivationFunction(
+            "leaky_relu": ActivationFunction(
                 Activations.leaky_relu,
                 Activations.leaky_relu_derivative,
-                'leaky_relu'
-            )
+                "leaky_relu"
+            ),
         }
 
         if name not in functions:

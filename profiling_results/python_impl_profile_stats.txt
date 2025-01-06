@@ -1,584 +1,584 @@
-         10431943 function calls (10401839 primitive calls) in 19.539 seconds
+         1216294179 function calls (1215872897 primitive calls) in 1871.068 seconds
 
    Ordered by: cumulative time
 
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
-   1506/2    0.010    0.000   19.375    9.688 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:641(wait)
-      430    0.007    0.000   15.679    0.036 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/matrix.py:102(map)
-      430    0.007    0.000   15.644    0.036 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/lib/_function_base_impl.py:2517(__call__)
-      430    1.047    0.002   15.637    0.036 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/lib/_function_base_impl.py:2487(_call_as_normal)
-      430    4.751    0.011   14.590    0.034 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/lib/_function_base_impl.py:2593(_vectorize_call)
-       90    0.057    0.001   13.680    0.152 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/python_impl.py:56(forward)
-   3717/1    0.153    0.000   10.001   10.001 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:327(wait)
-      2/1    0.076    0.038    9.375    9.375 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/python_impl.py:141(train)
-      860    7.505    0.009    7.505    0.009 {built-in method numpy.asanyarray}
-       80    0.057    0.001    5.280    0.066 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/python_impl.py:92(backward)
-     1502    0.025    0.000    3.894    0.003 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:1056(join)
-     1502    0.043    0.000    3.829    0.003 {method 'join' of '_thread._ThreadHandle' objects}
-      670    0.035    0.000    3.096    0.005 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/matrix.py:37(multiply)
-      670    0.015    0.000    3.008    0.004 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/concurrent/futures/_base.py:646(__exit__)
-      670    0.026    0.000    2.962    0.004 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/concurrent/futures/thread.py:219(shutdown)
- 1502/670    0.040    0.000    2.293    0.003 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:981(run)
-  4040270    1.158    0.000    1.960    0.000 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/activations.py:26(relu)
-     2680    0.029    0.000    1.627    0.001 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/concurrent/futures/_base.py:428(result)
- 1502/670    0.041    0.000    1.565    0.002 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/concurrent/futures/thread.py:69(_worker)
-2680/1227    0.132    0.000    1.528    0.001 {method 'get' of '_queue.SimpleQueue' objects}
-2680/2211    0.039    0.000    1.032    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/concurrent/futures/thread.py:53(run)
-     2680    0.312    0.000    0.840    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/concurrent/futures/thread.py:164(submit)
-  4040991    0.804    0.000    0.804    0.000 {built-in method builtins.max}
-     2680    0.023    0.000    0.458    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/concurrent/futures/thread.py:183(_adjust_thread_count)
-1504/1503    0.017    0.000    0.390    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:953(start)
-  1920160    0.292    0.000    0.292    0.000 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/activations.py:30(relu_derivative)
-2680/2211    1.177    0.000    0.247    0.000 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/matrix.py:29(_multiply_chunk)
-    20000    0.053    0.000    0.145    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/_core/fromnumeric.py:1251(argmax)
-     4854    0.082    0.000    0.123    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:281(__init__)
-     2680    0.037    0.000    0.119    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:472(acquire)
-     1503    0.061    0.000    0.111    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:869(__init__)
-  17631/6    0.181    0.000    0.104    0.017 {method 'acquire' of '_thread.lock' objects}
-        1    0.000    0.000    0.101    0.101 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/psutil/__init__.py:679(get_cpu_percent)
+20781/181    0.211    0.000 2086.685   11.529 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:641(wait)
+     4625    0.123    0.000 1707.241    0.369 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/matrix.py:104(map)
+     4625    0.105    0.000 1556.808    0.337 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/lib/_function_base_impl.py:2517(__call__)
+     4625  129.807    0.028 1512.763    0.327 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/lib/_function_base_impl.py:2487(_call_as_normal)
+52033/166   18.183    0.000 1483.531    8.937 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:327(wait)
+     4625  459.421    0.099 1382.954    0.299 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/lib/_function_base_impl.py:2593(_vectorize_call)
+      525    2.225    0.004 1188.224    2.263 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/python_impl.py:62(forward)
+     9250  855.403    0.092  855.403    0.092 {built-in method numpy.asanyarray}
+      500    1.111    0.002  660.726    1.321 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/python_impl.py:103(backward)
+      2/1    1.365    0.683  600.599  600.599 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/python_impl.py:154(train)
+485002625  122.331    0.000  199.797    0.000 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/activations.py:27(relu)
+    20595    0.489    0.000  190.891    0.009 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:1056(join)
+    28500    2.025    0.000  189.878    0.007 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/concurrent/futures/_base.py:428(result)
+    20595    0.774    0.000  189.382    0.009 {method 'join' of '_thread._ThreadHandle' objects}
+235912/666   28.054    0.000  160.403    0.241 {method 'acquire' of '_thread.lock' objects}
+     7125    0.428    0.000  134.894    0.019 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/matrix.py:38(multiply)
+     7125    0.193    0.000  133.650    0.019 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/concurrent/futures/_base.py:646(__exit__)
+     7125    0.328    0.000  133.122    0.019 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/concurrent/futures/thread.py:219(shutdown)
+20595/7125    1.527    0.000  125.728    0.018 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:981(run)
+20595/7125    3.205    0.000   86.585    0.012 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/concurrent/futures/thread.py:69(_worker)
+28500/10493    3.488    0.000   85.932    0.008 {method 'get' of '_queue.SimpleQueue' objects}
+485009837   77.487    0.000   77.487    0.000 {built-in method builtins.max}
+28500/14884    1.681    0.000   42.825    0.003 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/concurrent/futures/thread.py:53(run)
+240002000   40.761    0.000   40.761    0.000 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/activations.py:31(relu_derivative)
+    28500    1.913    0.000   17.235    0.001 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/concurrent/futures/thread.py:164(submit)
+    28500    0.611    0.000   14.584    0.001 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/concurrent/futures/thread.py:183(_adjust_thread_count)
+20597/20596    0.191    0.000   12.908    0.001 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:953(start)
+28500/14884   91.240    0.003    5.917    0.000 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/matrix.py:30(_multiply_chunk)
+   500000    1.620    0.000    4.345    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/_core/fromnumeric.py:1251(argmax)
+   500500    0.653    0.000    2.751    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/_core/fromnumeric.py:51(_wrapfunc)
+    20596    0.996    0.000    1.847    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:869(__init__)
+    28500    0.487    0.000    1.740    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:472(acquire)
+   500000    1.738    0.000    1.738    0.000 {method 'argmax' of 'numpy.ndarray' objects}
+    11125    0.186    0.000    1.711    0.000 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/matrix.py:14(from_numpy)
+     2625    1.550    0.001    1.663    0.001 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/matrix.py:80(add)
+    56222    1.122    0.000    1.616    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:281(__init__)
+    28500    0.715    0.000    1.447    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/concurrent/futures/_base.py:537(set_result)
+    44510    0.130    0.000    1.435    0.000 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/matrix.py:8(__init__)
+    44515    1.305    0.000    1.305    0.000 {built-in method numpy.zeros}
+    28500    0.153    0.000    1.250    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/concurrent/futures/_base.py:328(__init__)
+    11125    1.177    0.000    1.177    0.000 {method 'astype' of 'numpy.ndarray' objects}
+    20596    1.129    0.000    1.129    0.000 {built-in method _thread.start_joinable_thread}
+     6500    0.961    0.000    1.121    0.000 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/matrix.py:69(multiply_elementwise)
+     4625    0.503    0.000    0.986    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/lib/_function_base_impl.py:2524(_get_ufunc_and_otypes)
+    77596    0.322    0.000    0.934    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:398(notify)
+    49096    0.090    0.000    0.899    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:428(notify_all)
+     5500    0.786    0.000    0.860    0.000 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/matrix.py:89(subtract)
+   183876    0.429    0.000    0.824    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:303(__enter__)
+    20596    0.166    0.000    0.814    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:620(set)
+     3000    0.040    0.000    0.638    0.000 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/matrix.py:110(sum)
+    28500    0.201    0.000    0.544    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:519(release)
+     7125    0.348    0.000    0.540    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/concurrent/futures/thread.py:126(__init__)
+    20597    0.132    0.000    0.514    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:592(__init__)
+     3000    0.026    0.000    0.497    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/_core/fromnumeric.py:2338(sum)
+   183875    0.402    0.000    0.469    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:306(__exit__)
+     3000    0.062    0.000    0.465    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/_core/fromnumeric.py:69(_wrapreduction)
+    90471    0.190    0.000    0.423    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:318(_is_owned)
+     3000    0.395    0.000    0.395    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+    28500    0.204    0.000    0.372    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/concurrent/futures/_base.py:497(set_running_or_notify_cancel)
+    72630    0.353    0.000    0.353    0.000 {method 'release' of '_thread.lock' objects}
+   178607    0.348    0.000    0.348    0.000 {built-in method builtins.hasattr}
+   500742    0.337    0.000    0.337    0.000 {built-in method builtins.getattr}
+     4625    0.211    0.000    0.325    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/lib/_function_base_impl.py:2435(__init__)
+     2625    0.007    0.000    0.312    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/lib/_stride_tricks_impl.py:367(broadcast_to)
+     2625    0.261    0.000    0.304    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/lib/_stride_tricks_impl.py:340(_broadcast_to)
+    56220    0.279    0.000    0.279    0.000 {method 'put' of '_queue.SimpleQueue' objects}
+     4625    0.270    0.000    0.270    0.000 {built-in method numpy.frompyfunc}
+   162500    0.224    0.000    0.224    0.000 {method '__exit__' of '_thread.lock' objects}
+    98376    0.211    0.000    0.211    0.000 {method '__enter__' of '_thread.lock' objects}
+     4500    0.094    0.000    0.205    0.000 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/matrix.py:98(transpose)
+     7125    0.054    0.000    0.192    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:461(__init__)
+    85500    0.184    0.000    0.184    0.000 {method '__enter__' of '_thread.RLock' objects}
+   500000    0.180    0.000    0.180    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/_core/fromnumeric.py:1247(_argmax_dispatcher)
+    20595    0.128    0.000    0.177    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:1047(_delete)
+    82462    0.176    0.000    0.176    0.000 {built-in method _thread.get_ident}
+    20963    0.125    0.000    0.174    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/_weakrefset.py:85(add)
+    28696    0.173    0.000    0.173    0.000 {method 'append' of 'list' objects}
+    28500    0.168    0.000    0.168    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:122(RLock)
+    52033    0.164    0.000    0.164    0.000 {method 'remove' of 'collections.deque' objects}
+    49095    0.158    0.000    0.158    0.000 {method 'get_nowait' of '_queue.SimpleQueue' objects}
+    42302    0.156    0.000    0.157    0.000 {method 'add' of 'set' objects}
+    41374    0.081    0.000    0.157    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:315(_acquire_restore)
+    52061    0.135    0.000    0.135    0.000 {built-in method _thread.allocate_lock}
+    41375    0.071    0.000    0.129    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:312(_release_save)
+    41191    0.063    0.000    0.124    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:1427(current_thread)
+    20596    0.024    0.000    0.111    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:1018(_set_ident)
+    20595    0.107    0.000    0.107    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/weakref.py:427(__setitem__)
+   147367    0.107    0.000    0.107    0.000 {method '__exit__' of '_thread.RLock' objects}
+        1    0.000    0.000    0.102    0.102 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/psutil/__init__.py:679(get_cpu_percent)
         1    0.100    0.100    0.100    0.100 {built-in method time.sleep}
-     2680    0.011    0.000    0.099    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/concurrent/futures/_base.py:328(__init__)
-    20080    0.022    0.000    0.095    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/_core/fromnumeric.py:51(_wrapfunc)
-     2680    0.049    0.000    0.084    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/concurrent/futures/_base.py:537(set_result)
-      430    0.038    0.000    0.074    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/lib/_function_base_impl.py:2524(_get_ufunc_and_otypes)
-    20000    0.059    0.000    0.059    0.000 {method 'argmax' of 'numpy.ndarray' objects}
-    16408    0.029    0.000    0.056    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:303(__enter__)
-     1503    0.054    0.000    0.054    0.000 {built-in method _thread.start_joinable_thread}
-     26/4    0.001    0.000    0.050    0.013 <frozen importlib._bootstrap>:1349(_find_and_load)
-     26/4    0.001    0.000    0.049    0.012 <frozen importlib._bootstrap>:1304(_find_and_load_unlocked)
-     6863    0.018    0.000    0.048    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:398(notify)
-     25/4    0.000    0.000    0.047    0.012 <frozen importlib._bootstrap>:911(_load_unlocked)
-     12/3    0.000    0.000    0.046    0.015 <frozen importlib._bootstrap_external>:1016(exec_module)
-     70/9    0.000    0.000    0.045    0.005 <frozen importlib._bootstrap>:480(_call_with_frames_removed)
-      670    0.029    0.000    0.045    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/concurrent/futures/thread.py:126(__init__)
-     1503    0.009    0.000    0.044    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:620(set)
-     12/3    0.000    0.000    0.044    0.015 {built-in method builtins.exec}
-     4183    0.005    0.000    0.043    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:428(notify_all)
-     4286    0.008    0.000    0.042    0.000 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/matrix.py:7(__init__)
-     2680    0.014    0.000    0.040    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:519(release)
-     13/8    0.000    0.000    0.039    0.005 <frozen importlib._bootstrap>:1390(_handle_fromlist)
-      6/3    0.000    0.000    0.039    0.013 {built-in method builtins.__import__}
-     1150    0.009    0.000    0.039    0.000 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/matrix.py:13(from_numpy)
-        1    0.000    0.000    0.038    0.038 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/python_impl.py:31(__init__)
-        1    0.012    0.012    0.038    0.038 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/python_impl.py:36(_initialize_weights)
-     4289    0.034    0.000    0.034    0.000 {built-in method numpy.zeros}
-    16407    0.027    0.000    0.031    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:306(__exit__)
-     1504    0.007    0.000    0.030    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:592(__init__)
-      320    0.003    0.000    0.030    0.000 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/matrix.py:108(sum)
-     2680    0.017    0.000    0.030    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/concurrent/futures/_base.py:497(set_running_or_notify_cancel)
-      560    0.025    0.000    0.028    0.000 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/matrix.py:87(subtract)
-      270    0.001    0.000    0.028    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/lib/_stride_tricks_impl.py:367(broadcast_to)
-     7190    0.012    0.000    0.027    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:318(_is_owned)
-      270    0.023    0.000    0.027    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/lib/_stride_tricks_impl.py:340(_broadcast_to)
-    15529    0.027    0.000    0.027    0.000 {built-in method builtins.hasattr}
-        1    0.000    0.000    0.026    0.026 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/__init__.py:326(__getattr__)
-        1    0.000    0.000    0.024    0.024 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/random/__init__.py:1(<module>)
-        3    0.000    0.000    0.024    0.008 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:760(get_lock)
-        1    0.000    0.000    0.024    0.024 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:90(__init__)
-        1    0.000    0.000    0.024    0.024 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:116(create_mp_lock)
-     4852    0.024    0.000    0.024    0.000 {method 'put' of '_queue.SimpleQueue' objects}
-      430    0.015    0.000    0.024    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/lib/_function_base_impl.py:2435(__init__)
-        1    0.000    0.000    0.023    0.023 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/random/_pickle.py:1(<module>)
-     13/8    0.000    0.000    0.021    0.003 <frozen importlib._bootstrap_external>:1322(exec_module)
-     13/8    0.007    0.001    0.021    0.003 {built-in method _imp.exec_dynamic}
-      320    0.002    0.000    0.020    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/_core/fromnumeric.py:2338(sum)
-      430    0.020    0.000    0.020    0.000 {built-in method numpy.frompyfunc}
-      560    0.013    0.000    0.020    0.000 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/matrix.py:69(multiply_elementwise)
-     1150    0.018    0.000    0.018    0.000 {method 'astype' of 'numpy.ndarray' objects}
-      320    0.005    0.000    0.018    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/_core/fromnumeric.py:69(_wrapreduction)
-    14397    0.018    0.000    0.018    0.000 {method '__exit__' of '_thread.lock' objects}
-      670    0.004    0.000    0.016    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:461(__init__)
-     2680    0.016    0.000    0.016    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:122(RLock)
-     2829    0.015    0.000    0.015    0.000 {method 'append' of 'list' objects}
-      270    0.013    0.000    0.014    0.000 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/matrix.py:78(add)
-     8368    0.014    0.000    0.014    0.000 {method '__enter__' of '_thread.lock' objects}
-        1    0.000    0.000    0.014    0.014 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/__init__.py:1(<module>)
-     8040    0.013    0.000    0.013    0.000 {method '__enter__' of '_thread.RLock' objects}
-     5221    0.013    0.000    0.013    0.000 {method 'release' of '_thread.lock' objects}
-      320    0.012    0.000    0.012    0.000 {method 'reduce' of 'numpy.ufunc' objects}
-       13    0.000    0.000    0.011    0.001 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:1464(display)
-    20308    0.011    0.000    0.011    0.000 {built-in method builtins.getattr}
-     4182    0.011    0.000    0.011    0.000 {method 'get_nowait' of '_queue.SimpleQueue' objects}
-       12    0.000    0.000    0.011    0.001 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:1325(refresh)
-     3717    0.011    0.000    0.011    0.000 {method 'remove' of 'collections.deque' objects}
-       11    0.000    0.000    0.011    0.001 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:1160(__iter__)
-        1    0.000    0.000    0.010    0.010 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/context.py:1(<module>)
-     3007    0.007    0.000    0.010    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:312(_release_save)
-        3    0.000    0.000    0.010    0.003 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/warnings.py:118(_formatwarnmsg)
-        3    0.000    0.000    0.010    0.003 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/warnings.py:35(_formatwarnmsg_impl)
-        3    0.000    0.000    0.010    0.003 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/warnings.py:97(_showwarnmsg)
-        3    0.000    0.000    0.010    0.003 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/warnings.py:20(_showwarnmsg_impl)
-        3    0.000    0.000    0.010    0.003 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/linecache.py:21(getline)
-        3    0.000    0.000    0.010    0.003 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/linecache.py:31(getlines)
-     1506    0.007    0.000    0.010    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/_weakrefset.py:85(add)
-        2    0.000    0.000    0.010    0.005 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/linecache.py:80(updatecache)
-     3022    0.010    0.000    0.010    0.000 {method 'add' of 'set' objects}
-       10    0.000    0.000    0.009    0.001 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:1198(update)
-     1502    0.007    0.000    0.009    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:1047(_delete)
-        2    0.009    0.005    0.009    0.005 {method 'readlines' of '_io._IOBase' objects}
-       26    0.001    0.000    0.009    0.000 <frozen importlib._bootstrap>:1240(_find_spec)
-       12    0.001    0.000    0.009    0.001 <frozen importlib._bootstrap_external>:1089(get_code)
-     6090    0.009    0.000    0.009    0.000 {built-in method _thread.get_ident}
-        1    0.000    0.000    0.009    0.009 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/context.py:70(RLock)
-     3006    0.004    0.000    0.009    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:315(_acquire_restore)
-       13    0.000    0.000    0.009    0.001 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:1150(__str__)
-       13    0.003    0.000    0.008    0.001 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:464(format_meter)
-       26    0.000    0.000    0.008    0.000 <frozen importlib._bootstrap_external>:1547(find_spec)
-       26    0.000    0.000    0.008    0.000 <frozen importlib._bootstrap_external>:1518(_get_spec)
-     3745    0.008    0.000    0.008    0.000 {built-in method _thread.allocate_lock}
-     3005    0.003    0.000    0.007    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:1427(current_thread)
-       43    0.002    0.000    0.007    0.000 <frozen importlib._bootstrap_external>:1620(find_spec)
-     2685    0.007    0.000    0.007    0.000 {built-in method builtins.min}
-    12628    0.007    0.000    0.007    0.000 {method '__exit__' of '_thread.RLock' objects}
-       80    0.001    0.000    0.007    0.000 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/matrix.py:119(clip)
-      700    0.003    0.000    0.006    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/lib/_function_base_impl.py:339(iterable)
-        1    0.000    0.000    0.006    0.006 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/secrets.py:1(<module>)
-    20000    0.006    0.000    0.006    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/_core/fromnumeric.py:1247(_argmax_dispatcher)
-        1    0.000    0.000    0.006    0.006 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/synchronize.py:1(<module>)
-     1502    0.004    0.000    0.006    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/_weakrefset.py:39(_remove)
-       12    0.000    0.000    0.006    0.000 <frozen importlib._bootstrap_external>:778(_compile_bytecode)
-     3718    0.006    0.000    0.006    0.000 {method 'append' of 'collections.deque' objects}
-       12    0.006    0.000    0.006    0.000 {built-in method marshal.loads}
-       40    0.000    0.000    0.006    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/utils.py:378(disp_len)
-     1502    0.005    0.000    0.005    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/weakref.py:427(__setitem__)
-      400    0.002    0.000    0.005    0.000 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/matrix.py:96(transpose)
-       40    0.000    0.000    0.005    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/utils.py:374(_text_width)
-      860    0.005    0.000    0.005    0.000 {built-in method numpy.asarray}
-       80    0.001    0.000    0.005    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/_core/fromnumeric.py:2241(clip)
-     1503    0.005    0.000    0.005    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:1265(_make_invoke_excepthook)
-       42    0.001    0.000    0.005    0.000 {built-in method builtins.sum}
-        1    0.000    0.000    0.005    0.005 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/hmac.py:1(<module>)
-     1503    0.001    0.000    0.005    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:1018(_set_ident)
-6488/6486    0.005    0.000    0.005    0.000 {built-in method builtins.len}
-     4966    0.002    0.000    0.004    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/utils.py:375(<genexpr>)
-       25    0.000    0.000    0.004    0.000 <frozen importlib._bootstrap>:806(module_from_spec)
-      711    0.004    0.000    0.004    0.000 {method '_acquire_restore' of '_thread.RLock' objects}
-      700    0.003    0.000    0.004    0.000 {built-in method builtins.any}
-      700    0.004    0.000    0.004    0.000 {built-in method builtins.iter}
-      634    0.004    0.000    0.004    0.000 {method 'join' of 'str' objects}
-     2680    0.004    0.000    0.004    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/concurrent/futures/_base.py:337(_invoke_callbacks)
-     1503    0.001    0.000    0.004    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:1022(_set_native_id)
-       37    0.002    0.000    0.003    0.000 {built-in method builtins.__build_class__}
-     3004    0.003    0.000    0.003    0.000 {built-in method time.monotonic}
-       80    0.000    0.000    0.003    0.000 {method 'clip' of 'numpy.ndarray' objects}
-     1322    0.003    0.000    0.003    0.000 {built-in method builtins.isinstance}
-       80    0.003    0.000    0.003    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/_core/_methods.py:99(_clip)
-       14    0.000    0.000    0.003    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:457(print_status)
-     1503    0.003    0.000    0.003    0.000 {built-in method _thread.get_native_id}
-       26    0.000    0.000    0.003    0.000 <frozen importlib._bootstrap>:416(__enter__)
+    20595    0.059    0.000    0.099    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/_weakrefset.py:39(_remove)
+    52034    0.092    0.000    0.092    0.000 {method 'append' of 'collections.deque' objects}
+    28505    0.090    0.000    0.090    0.000 {built-in method builtins.min}
+     7250    0.031    0.000    0.085    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/lib/_function_base_impl.py:339(iterable)
+75565/75563    0.083    0.000    0.083    0.000 {built-in method builtins.len}
+    20596    0.082    0.000    0.082    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:1265(_make_invoke_excepthook)
+     9250    0.077    0.000    0.077    0.000 {built-in method numpy.asarray}
+    41190    0.071    0.000    0.071    0.000 {built-in method time.monotonic}
+        1    0.000    0.000    0.070    0.070 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/python_impl.py:36(__init__)
+        1    0.014    0.014    0.069    0.069 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/python_impl.py:41(_initialize_weights)
+     26/4    0.001    0.000    0.067    0.017 <frozen importlib._bootstrap>:1349(_find_and_load)
+     26/4    0.001    0.000    0.066    0.017 <frozen importlib._bootstrap>:1304(_find_and_load_unlocked)
+    20596    0.012    0.000    0.065    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:1022(_set_native_id)
+    10659    0.065    0.000    0.065    0.000 {method '_acquire_restore' of '_thread.RLock' objects}
+     25/4    0.001    0.000    0.064    0.016 <frozen importlib._bootstrap>:911(_load_unlocked)
+     12/3    0.000    0.000    0.063    0.021 <frozen importlib._bootstrap_external>:1016(exec_module)
+     70/9    0.000    0.000    0.061    0.007 <frozen importlib._bootstrap>:480(_call_with_frames_removed)
+     12/3    0.000    0.000    0.061    0.020 {built-in method builtins.exec}
+     13/8    0.000    0.000    0.057    0.007 <frozen importlib._bootstrap>:1390(_handle_fromlist)
+      6/3    0.000    0.000    0.057    0.019 {built-in method builtins.__import__}
+        1    0.000    0.000    0.055    0.055 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/__init__.py:326(__getattr__)
+     7250    0.055    0.000    0.055    0.000 {built-in method builtins.iter}
+    20596    0.053    0.000    0.053    0.000 {built-in method _thread.get_native_id}
+     7250    0.032    0.000    0.052    0.000 {built-in method builtins.any}
+        1    0.000    0.000    0.051    0.051 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/random/__init__.py:1(<module>)
+    28500    0.048    0.000    0.048    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/concurrent/futures/_base.py:337(_invoke_callbacks)
+        1    0.000    0.000    0.047    0.047 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/random/_pickle.py:1(<module>)
+     4829    0.046    0.000    0.046    0.000 {method 'join' of 'str' objects}
+     13/8    0.000    0.000    0.043    0.005 <frozen importlib._bootstrap_external>:1322(exec_module)
+     13/8    0.013    0.001    0.043    0.005 {built-in method _imp.exec_dynamic}
+      500    0.005    0.000    0.043    0.000 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/matrix.py:121(clip)
+    12426    0.041    0.000    0.041    0.000 {built-in method builtins.isinstance}
+    20595    0.040    0.000    0.040    0.000 {method 'discard' of 'set' objects}
+    10659    0.040    0.000    0.040    0.000 {method '_release_save' of '_thread.RLock' objects}
+      366    0.003    0.000    0.035    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/_monitor.py:47(get_instances)
+    28500    0.034    0.000    0.034    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/_core/multiarray.py:761(dot)
+      500    0.008    0.000    0.034    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/_core/fromnumeric.py:2241(clip)
+    20595    0.034    0.000    0.034    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/weakref.py:369(remove)
+       30    0.000    0.000    0.032    0.001 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:1464(display)
+       29    0.000    0.000    0.032    0.001 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:1325(refresh)
+    41192    0.030    0.000    0.030    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:1145(daemon)
+       26    0.000    0.000    0.030    0.001 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:1160(__iter__)
+       25    0.001    0.000    0.029    0.001 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:1198(update)
+       30    0.000    0.000    0.024    0.001 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:1150(__str__)
+      500    0.002    0.000    0.023    0.000 {method 'clip' of 'numpy.ndarray' objects}
+       30    0.008    0.000    0.023    0.001 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:464(format_meter)
+      366    0.001    0.000    0.022    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/_weakrefset.py:95(copy)
+      367    0.004    0.000    0.021    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/_weakrefset.py:37(__init__)
+     1473    0.006    0.000    0.021    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/_weakrefset.py:63(__iter__)
+      500    0.021    0.000    0.021    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/_core/_methods.py:99(_clip)
+     2500    0.019    0.000    0.019    0.000 {method 'reshape' of 'numpy.ndarray' objects}
+    39159    0.019    0.000    0.019    0.000 {method '_is_owned' of '_thread.RLock' objects}
+      366    0.002    0.000    0.017    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/_weakrefset.py:120(update)
+     9250    0.016    0.000    0.016    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/lib/_function_base_impl.py:2555(<genexpr>)
+       93    0.000    0.000    0.015    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/utils.py:378(disp_len)
+       26    0.001    0.000    0.015    0.001 <frozen importlib._bootstrap>:1240(_find_spec)
+       93    0.000    0.000    0.014    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/utils.py:374(_text_width)
+       95    0.002    0.000    0.014    0.000 {built-in method builtins.sum}
+       26    0.000    0.000    0.013    0.000 <frozen importlib._bootstrap_external>:1547(find_spec)
+       26    0.000    0.000    0.012    0.000 <frozen importlib._bootstrap_external>:1518(_get_spec)
+      187    0.000    0.000    0.012    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:760(get_lock)
+    11496    0.006    0.000    0.012    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/utils.py:375(<genexpr>)
+    28500    0.012    0.000    0.012    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/concurrent/futures/thread.py:47(__init__)
+        1    0.000    0.000    0.012    0.012 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/secrets.py:1(<module>)
+        1    0.000    0.000    0.011    0.011 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:90(__init__)
+        1    0.000    0.000    0.011    0.011 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:116(create_mp_lock)
+    41558    0.011    0.000    0.011    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:605(is_set)
+       43    0.004    0.000    0.011    0.000 <frozen importlib._bootstrap_external>:1620(find_spec)
+     2625    0.011    0.000    0.011    0.000 {method '__exit__' of 'numpy.nditer' objects}
+      737    0.003    0.000    0.011    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/_weakrefset.py:27(__exit__)
+    28500    0.010    0.000    0.010    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/concurrent/futures/_base.py:398(__get_result)
+        1    0.000    0.000    0.009    0.009 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/hmac.py:1(<module>)
+       12    0.001    0.000    0.008    0.001 <frozen importlib._bootstrap_external>:1089(get_code)
+     3004    0.008    0.000    0.008    0.000 {method 'items' of 'dict' objects}
+       33    0.000    0.000    0.007    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:457(print_status)
+      737    0.005    0.000    0.007    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/_weakrefset.py:53(_commit_removals)
+        1    0.002    0.002    0.007    0.007 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/collections/__init__.py:355(namedtuple)
+     2625    0.007    0.000    0.007    0.000 {built-in method numpy.array}
+       25    0.000    0.000    0.006    0.000 <frozen importlib._bootstrap>:806(module_from_spec)
+       30    0.000    0.000    0.006    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/utils.py:386(disp_trim)
+        4    0.000    0.000    0.006    0.001 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/warnings.py:97(_showwarnmsg)
+        4    0.000    0.000    0.006    0.001 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/warnings.py:20(_showwarnmsg_impl)
+        4    0.000    0.000    0.006    0.001 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/warnings.py:118(_formatwarnmsg)
+        4    0.000    0.000    0.006    0.001 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/warnings.py:35(_formatwarnmsg_impl)
+        4    0.000    0.000    0.006    0.001 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/linecache.py:21(getline)
+        4    0.000    0.000    0.006    0.001 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/linecache.py:31(getlines)
+        2    0.000    0.000    0.006    0.003 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/linecache.py:80(updatecache)
+    11403    0.006    0.000    0.006    0.000 {built-in method unicodedata.east_asian_width}
+     3000    0.005    0.000    0.005    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/_core/fromnumeric.py:2333(_sum_dispatcher)
+        1    0.000    0.000    0.005    0.005 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/context.py:70(RLock)
+        1    0.000    0.000    0.005    0.005 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/__init__.py:1(<module>)
+        2    0.005    0.002    0.005    0.002 {method 'readlines' of '_io._IOBase' objects}
+       12    0.000    0.000    0.004    0.000 <frozen importlib._bootstrap_external>:778(_compile_bytecode)
+       12    0.004    0.000    0.004    0.000 {built-in method marshal.loads}
+        1    0.004    0.004    0.004    0.004 {built-in method builtins.eval}
+        1    0.000    0.000    0.004    0.004 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/synchronize.py:1(<module>)
+        1    0.000    0.000    0.004    0.004 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/context.py:1(<module>)
+       13    0.000    0.000    0.004    0.000 <frozen importlib._bootstrap_external>:1314(create_module)
+     2000    0.003    0.000    0.003    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/_core/multiarray.py:383(where)
+       13    0.003    0.000    0.003    0.000 {built-in method _imp.create_dynamic}
         1    0.000    0.000    0.003    0.003 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:952(__init__)
-       40    0.001    0.000    0.002    0.000 <frozen importlib._bootstrap>:304(acquire)
-     1502    0.002    0.000    0.002    0.000 {method 'discard' of 'set' objects}
-       13    0.000    0.000    0.002    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/utils.py:386(disp_trim)
-       92    0.002    0.000    0.002    0.000 {built-in method posix.stat}
-       90    0.000    0.000    0.002    0.000 <frozen importlib._bootstrap_external>:145(_path_stat)
-      711    0.002    0.000    0.002    0.000 {method '_release_save' of '_thread.RLock' objects}
-       13    0.000    0.000    0.002    0.000 <frozen importlib._bootstrap_external>:1314(create_module)
-     2680    0.002    0.000    0.002    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/_core/multiarray.py:761(dot)
-       13    0.002    0.000    0.002    0.000 {built-in method _imp.create_dynamic}
-     1502    0.002    0.000    0.002    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/weakref.py:369(remove)
-       25    0.000    0.000    0.002    0.000 <frozen importlib._bootstrap>:733(_init_module_attrs)
-     4926    0.002    0.000    0.002    0.000 {built-in method unicodedata.east_asian_width}
-     3006    0.002    0.000    0.002    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:1145(daemon)
-      177    0.001    0.000    0.002    0.000 <frozen importlib._bootstrap_external>:131(_path_join)
-        1    0.001    0.001    0.002    0.002 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/collections/__init__.py:355(namedtuple)
-        1    0.001    0.001    0.002    0.002 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/process.py:1(<module>)
-       24    0.001    0.000    0.002    0.000 <frozen importlib._bootstrap_external>:509(cache_from_source)
+       26    0.000    0.000    0.003    0.000 <frozen importlib._bootstrap>:416(__enter__)
+     2625    0.003    0.000    0.003    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/lib/_stride_tricks_impl.py:24(_maybe_view_as_subclass)
+     4625    0.003    0.000    0.003    0.000 {built-in method builtins.callable}
+        3    0.000    0.000    0.003    0.001 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:716(write)
+     7875    0.003    0.000    0.003    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/lib/_stride_tricks_impl.py:345(<genexpr>)
+        8    0.000    0.000    0.003    0.000 {built-in method builtins.next}
+       90    0.000    0.000    0.003    0.000 <frozen importlib._bootstrap_external>:145(_path_stat)
+       40    0.001    0.000    0.003    0.000 <frozen importlib._bootstrap>:304(acquire)
+       60    0.002    0.000    0.003    0.000 {method 'format' of 'str' objects}
+       92    0.003    0.000    0.003    0.000 {built-in method posix.stat}
+        6    0.000    0.000    0.003    0.001 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:725(external_write_mode)
+      177    0.002    0.000    0.003    0.000 <frozen importlib._bootstrap_external>:131(_path_join)
+      737    0.002    0.000    0.003    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/_weakrefset.py:21(__enter__)
+     2625    0.003    0.000    0.003    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/lib/_stride_tricks_impl.py:363(_broadcast_to_dispatcher)
+      793    0.003    0.000    0.003    0.000 {method 'pop' of 'list' objects}
+      187    0.001    0.000    0.003    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:110(__enter__)
+        3    0.000    0.000    0.003    0.001 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/contextlib.py:145(__exit__)
+       25    0.001    0.000    0.002    0.000 <frozen importlib._bootstrap>:733(_init_module_attrs)
+      216    0.002    0.000    0.002    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:102(acquire)
+      216    0.002    0.000    0.002    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:106(release)
         1    0.002    0.002    0.002    0.002 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/_core/_ufunc_config.py:464(inner)
-       14    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:463(_lock_unlock_module)
-      240    0.001    0.000    0.001    0.000 {method 'reshape' of 'numpy.ndarray' objects}
-        4    0.000    0.000    0.001    0.000 {built-in method builtins.next}
-       12    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1210(get_data)
-       37    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:632(cached)
-        1    0.000    0.000    0.001    0.001 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/reduction.py:1(<module>)
-       25    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:638(_get_cached)
-        1    0.000    0.000    0.001    0.001 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/hashlib.py:1(<module>)
-     3391    0.001    0.000    0.001    0.000 {method '_is_owned' of '_thread.RLock' objects}
+      187    0.000    0.000    0.002    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:113(__exit__)
+       24    0.001    0.000    0.002    0.000 <frozen importlib._bootstrap_external>:509(cache_from_source)
+     7125    0.002    0.000    0.002    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/concurrent/futures/_base.py:643(__enter__)
+        1    0.000    0.000    0.002    0.002 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/hashlib.py:1(<module>)
+       37    0.001    0.000    0.002    0.000 {built-in method builtins.__build_class__}
+       14    0.000    0.000    0.002    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/hashlib.py:126(__get_openssl_constructor)
+        1    0.000    0.000    0.002    0.002 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/utils.py:333(_screen_shape_linux)
        40    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:162(__enter__)
-       26    0.001    0.000    0.001    0.000 {method 'format' of 'str' objects}
-       40    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap>:426(_get_module_lock)
-      860    0.001    0.000    0.001    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/lib/_function_base_impl.py:2555(<genexpr>)
-       14    0.000    0.000    0.001    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/hashlib.py:126(__get_openssl_constructor)
-      270    0.001    0.000    0.001    0.000 {method '__exit__' of 'numpy.nditer' objects}
-        1    0.001    0.001    0.001    0.001 {built-in method builtins.eval}
-        1    0.000    0.000    0.001    0.001 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:716(write)
-        2    0.000    0.000    0.001    0.001 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:1265(close)
-        1    0.000    0.000    0.001    0.001 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/utils.py:333(_screen_shape_linux)
         1    0.000    0.000    0.001    0.001 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/__init__.py:287(compile)
         1    0.000    0.000    0.001    0.001 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/__init__.py:330(_compile)
-        2    0.000    0.000    0.001    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:725(external_write_mode)
-       40    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap>:372(release)
-        2    0.000    0.000    0.001    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/hashlib.py:82(__get_builtin_constructor)
-       31    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:164(_path_isfile)
+       37    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:632(cached)
+       25    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:638(_get_cached)
         1    0.000    0.000    0.001    0.001 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_compiler.py:738(compile)
-       24    0.001    0.000    0.001    0.000 {method 'write' of '_io.TextIOWrapper' objects}
-      324    0.001    0.000    0.001    0.000 {method 'items' of 'dict' objects}
+        2    0.000    0.000    0.001    0.001 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/hashlib.py:82(__get_builtin_constructor)
+       12    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1210(get_data)
+       14    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:463(_lock_unlock_module)
+       31    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:164(_path_isfile)
        33    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:155(_path_is_mode_type)
-       40    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:124(setdefault)
-     2680    0.001    0.000    0.001    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/concurrent/futures/thread.py:47(__init__)
-        1    0.000    0.000    0.001    0.001 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/tempfile.py:1(<module>)
-        1    0.000    0.000    0.001    0.001 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/contextlib.py:145(__exit__)
-     2680    0.001    0.000    0.001    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/concurrent/futures/_base.py:398(__get_result)
-       12    0.001    0.000    0.001    0.000 {built-in method _io.open_code}
-     3008    0.001    0.000    0.001    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:605(is_set)
+       58    0.001    0.000    0.001    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:400(format_interval)
+       40    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap>:124(setdefault)
+       40    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap>:426(_get_module_lock)
+      340    0.001    0.000    0.001    0.000 {built-in method time.time}
+        2    0.000    0.000    0.001    0.001 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:1265(close)
+      738    0.001    0.000    0.001    0.000 {method 'remove' of 'set' objects}
+       40    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap>:372(release)
+      368    0.000    0.000    0.001    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:1157(__hash__)
+       33    0.000    0.000    0.001    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:451(fp_write)
        25    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1615(_get_spec)
+       30    0.001    0.000    0.001    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:1446(format_dict)
+       30    0.001    0.000    0.001    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:186(__format__)
+      737    0.001    0.000    0.001    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/_weakrefset.py:17(__init__)
+       83    0.000    0.000    0.001    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/utils.py:194(inner)
+       54    0.001    0.000    0.001    0.000 {method 'write' of '_io.TextIOWrapper' objects}
+        3    0.000    0.000    0.001    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/psutil/_pslinux.py:460(wrapper)
+       53    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1496(_path_importer_cache)
+        1    0.001    0.001    0.001    0.001 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/process.py:1(<module>)
+        2    0.000    0.000    0.001    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/psutil/__init__.py:1169(cpu_times)
+        2    0.000    0.000    0.001    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/psutil/_pslinux.py:270(get_system_cpu_times)
        26    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:420(__exit__)
-        1    0.000    0.000    0.001    0.001 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/synchronize.py:193(__init__)
-      270    0.001    0.000    0.001    0.000 {built-in method numpy.array}
-       25    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:829(spec_from_file_location)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/synchronize.py:50(__init__)
-       53    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1496(_path_importer_cache)
-      151    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
-        3    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/psutil/_pslinux.py:460(wrapper)
-       24    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:137(_path_split)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_parser.py:970(parse)
-      378    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_parser.py:451(_parse_sub)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_compiler.py:571(_code)
-        4    0.000    0.000    0.000    0.000 <frozen abc>:105(__new__)
-       14    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:451(fp_write)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/synchronize.py:121(_make_name)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_parser.py:511(_parse)
-        2    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/psutil/__init__.py:1169(cpu_times)
-       35    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/utils.py:194(inner)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1483(_path_hooks)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/tempfile.py:153(__next__)
-        2    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/psutil/_pslinux.py:270(get_system_cpu_times)
-        7    0.000    0.000    0.000    0.000 {built-in method _io.open}
-       13    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:1446(format_dict)
+       25    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:829(spec_from_file_location)
+      378    0.001    0.000    0.001    0.000 {method 'rstrip' of 'str' objects}
+      151    0.001    0.000    0.001    0.000 {method 'rpartition' of 'str' objects}
+      370    0.001    0.000    0.001    0.000 {built-in method builtins.id}
+       12    0.001    0.000    0.001    0.000 {built-in method _io.open_code}
+        1    0.000    0.000    0.001    0.001 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_parser.py:970(parse)
+        1    0.000    0.000    0.001    0.001 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_compiler.py:571(_code)
+        7    0.001    0.000    0.001    0.000 {built-in method _io.open}
+        1    0.000    0.000    0.001    0.001 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_parser.py:451(_parse_sub)
+        2    0.000    0.000    0.001    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/psutil/_pslinux.py:576(get_cpu_times)
+        2    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1483(_path_hooks)
+      500    0.001    0.000    0.001    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/_core/fromnumeric.py:2236(_clip_dispatcher)
+        3    0.000    0.000    0.001    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/contextlib.py:136(__enter__)
+        1    0.000    0.000    0.001    0.001 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_parser.py:511(_parse)
+       24    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:137(_path_split)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/reduction.py:1(<module>)
+      133    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:231(__call__)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/tempfile.py:1(<module>)
        12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1229(path_stats)
-       24    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:400(format_interval)
-       13    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:186(__format__)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/util.py:1(<module>)
-      320    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/_core/fromnumeric.py:2333(_sum_dispatcher)
-        2    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/tokenize.py:443(open)
-       51    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x7b0674120f80}
-      270    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/lib/_stride_tricks_impl.py:363(_broadcast_to_dispatcher)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/tempfile.py:142(rng)
-      810    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/lib/_stride_tricks_impl.py:345(<genexpr>)
-       15    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
-      270    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/lib/_stride_tricks_impl.py:24(_maybe_view_as_subclass)
-       12    0.000    0.000    0.000    0.000 {method 'read' of '_io.BufferedReader' objects}
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/synchronize.py:193(__init__)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/synchronize.py:50(__init__)
+       60    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/utils.py:273(_is_ascii)
       2/1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_compiler.py:37(_compile)
-       40    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:74(__new__)
-       55    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:645(parent)
-        2    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/psutil/_pslinux.py:576(get_cpu_times)
-        2    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/_monitor.py:47(get_instances)
-      430    0.000    0.000    0.000    0.000 {built-in method builtins.callable}
-       13    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/_weakrefset.py:63(__iter__)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/contextlib.py:136(__enter__)
-       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:693(_classify_pyc)
+       93    0.000    0.000    0.000    0.000 {method 'sub' of 're.Pattern' objects}
+        6    0.000    0.000    0.000    0.000 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/python_impl.py:21(__init__)
+       32    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+      217    0.000    0.000    0.000    0.000 {method 'release' of '_thread.RLock' objects}
         2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1671(_fill_cache)
-        1    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/psutil/__init__.py:749(get_memory_info)
         5    0.000    0.000    0.000    0.000 <frozen abc>:110(register)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/context.py:30(BaseContext)
-      109    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
-      160    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/_core/multiarray.py:383(where)
-       63    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
-     21/6    0.000    0.000    0.000    0.000 <frozen abc>:121(__subclasscheck__)
+      216    0.000    0.000    0.000    0.000 {method 'acquire' of '_multiprocessing.SemLock' objects}
         5    0.000    0.000    0.000    0.000 {built-in method _abc._abc_register}
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/process.py:71(BaseProcess)
-      2/1    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:663(__new__)
-     21/6    0.000    0.000    0.000    0.000 {built-in method _abc._abc_subclasscheck}
-        1    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/psutil/_pslinux.py:614(get_memory_info)
         2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1712(path_hook_for_FileFinder)
-       34    0.000    0.000    0.000    0.000 <frozen codecs>:322(decode)
+     21/6    0.000    0.000    0.000    0.000 <frozen abc>:121(__subclasscheck__)
+       40    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:74(__new__)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/synchronize.py:121(_make_name)
+        6    0.000    0.000    0.000    0.000 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/activations.py:52(get_activation_pair)
+        2    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/tokenize.py:443(open)
+       51    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x71c610d20f80}
+       55    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:645(parent)
+     21/6    0.000    0.000    0.000    0.000 {built-in method _abc._abc_subclasscheck}
        26    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:232(__init__)
-       40    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:79(__init__)
-        4    0.000    0.000    0.000    0.000 {built-in method _abc._abc_init}
-       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:726(_validate_timestamp_pyc)
-       62    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:231(__call__)
-      2/1    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/_monitor.py:30(__init__)
-        3    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/_weakrefset.py:37(__init__)
+       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:693(_classify_pyc)
+        4    0.000    0.000    0.000    0.000 <frozen abc>:105(__new__)
+      217    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.RLock' objects}
         2    0.000    0.000    0.000    0.000 {built-in method posix.listdir}
-        2    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/_weakrefset.py:95(copy)
         3    0.000    0.000    0.000    0.000 {method 'readline' of '_io.TextIOWrapper' objects}
-       36    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:89(_unpack_uint32)
-        2    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/tokenize.py:350(detect_encoding)
-       26    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/utils.py:273(_is_ascii)
-      670    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/concurrent/futures/_base.py:643(__enter__)
-       40    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:173(__exit__)
-       14    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
-       66    0.000    0.000    0.000    0.000 {built-in method time.time}
-       38    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/__init__.py:23(<genexpr>)
-       40    0.000    0.000    0.000    0.000 {method 'sub' of 're.Pattern' objects}
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/util.py:1(<module>)
+       12    0.000    0.000    0.000    0.000 {method 'read' of '_io.BufferedReader' objects}
+       28    0.000    0.000    0.000    0.000 {built-in method now}
+        3    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:1309(clear)
+       40    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:79(__init__)
+       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:726(_validate_timestamp_pyc)
+        1    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/psutil/__init__.py:749(get_memory_info)
+        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
        26    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1128(find_spec)
-       26    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:445(cb)
-       17    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:102(acquire)
-       34    0.000    0.000    0.000    0.000 {built-in method _codecs.utf_8_decode}
-        1    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:686(_decr_instances)
-        7    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/_weakrefset.py:27(__exit__)
-       84    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+      109    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+       36    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:89(_unpack_uint32)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1594(__init__)
+       40    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:173(__exit__)
        27    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:190(_path_abspath)
-       17    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:106(release)
+        1    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/psutil/_pslinux.py:614(get_memory_info)
         2    0.000    0.000    0.000    0.000 <frozen zipimport>:68(__init__)
         1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_compiler.py:509(_compile_info)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1594(__init__)
-        2    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/_weakrefset.py:120(update)
-       48    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:139(<genexpr>)
-        1    0.000    0.000    0.000    0.000 {built-in method builtins.dir}
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_compiler.py:241(_optimize_charset)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/tempfile.py:685(SpooledTemporaryFile)
-       26    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/_virtualenv.py:52(find_spec)
-       26    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
-       27    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:185(_path_isabs)
-        4    0.000    0.000    0.000    0.000 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/python_impl.py:19(__init__)
-       40    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:82(remove)
-        1    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:1309(clear)
-       11    0.000    0.000    0.000    0.000 {built-in method posix.getcwd}
-       80    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/_core/fromnumeric.py:2236(_clip_dispatcher)
-       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:670(_check_name_wrapper)
-        7    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/_weakrefset.py:53(_commit_removals)
-        4    0.000    0.000    0.000    0.000 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/implementations/activations.py:51(get_activation_pair)
-      104    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1226(__exit__)
         5    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
-       61    0.000    0.000    0.000    0.000 {built-in method builtins.divmod}
-       11    0.000    0.000    0.000    0.000 {built-in method now}
-        2    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/random.py:119(__init__)
-       21    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
-       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:48(_new_module)
-      218    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:491(_verbose_message)
-      104    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1222(__enter__)
-        1    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:679(_get_free_pos)
-       40    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
-       26    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:982(find_spec)
-        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:169(_path_isdir)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/random.py:128(seed)
-        1    0.000    0.000    0.000    0.000 {built-in method builtins.print}
-      2/1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_parser.py:177(getwidth)
-        5    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:110(__enter__)
-       40    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
-        1    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/_core/_ufunc_config.py:459(__call__)
-        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
-      170    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
-       37    0.000    0.000    0.000    0.000 {built-in method from_bytes}
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/tempfile.py:860(TemporaryDirectory)
-        5    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:113(__exit__)
-        1    0.000    0.000    0.000    0.000 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/benchmark/profiler.py:88(__exit__)
-      275    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/weakref.py:104(__init__)
-      170    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
-        1    0.000    0.000    0.000    0.000 <frozen posixpath>:375(abspath)
-        1    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/utils.py:213(__init__)
-       13    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:153(__init__)
-       26    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
-        2    0.000    0.000    0.000    0.000 {method 'read' of '_io.TextIOWrapper' objects}
-        8    0.000    0.000    0.000    0.000 {method 'remove' of 'set' objects}
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/reduction.py:33(ForkingPickler)
-       24    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/_weakrefset.py:110(remove)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/functools.py:36(update_wrapper)
-        6    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
-        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+       34    0.000    0.000    0.000    0.000 <frozen codecs>:322(decode)
+      146    0.000    0.000    0.000    0.000 {built-in method builtins.divmod}
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_compiler.py:241(_optimize_charset)
+        2    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/tokenize.py:350(detect_encoding)
+       84    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
         4    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/_core/getlimits.py:697(__init__)
-        2    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/tokenize.py:380(find_cookie)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/context.py:220(Process)
-        6    0.000    0.000    0.000    0.000 {method 'setter' of 'property' objects}
-        5    0.000    0.000    0.000    0.000 {method 'close' of '_io.TextIOWrapper' objects}
-        2    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/tokenize.py:374(read_or_stop)
-       26    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:599(__init__)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/random.py:458(choices)
-       26    0.000    0.000    0.000    0.000 {built-in method _imp.find_frozen}
+       26    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/_virtualenv.py:52(find_spec)
+       27    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:185(_path_isabs)
+       26    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:445(cb)
+       48    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:139(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:679(_get_free_pos)
+       40    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:82(remove)
+      2/1    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:663(__new__)
+      216    0.000    0.000    0.000    0.000 {method 'release' of '_multiprocessing.SemLock' objects}
+        2    0.000    0.000    0.000    0.000 {method 'read' of '_io.TextIOWrapper' objects}
+      632    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
+       14    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+       26    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+       11    0.000    0.000    0.000    0.000 {built-in method posix.getcwd}
+      104    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1226(__exit__)
+        4    0.000    0.000    0.000    0.000 {built-in method _abc._abc_init}
+      2/1    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/_monitor.py:30(__init__)
+        1    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:686(_decr_instances)
+       34    0.000    0.000    0.000    0.000 {built-in method _codecs.utf_8_decode}
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/tempfile.py:153(__next__)
         7    0.000    0.000    0.000    0.000 {built-in method sys.intern}
-        7    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/_weakrefset.py:21(__enter__)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/process.py:396(__init__)
-       40    0.000    0.000    0.000    0.000 {built-in method _weakref._remove_dead_weakref}
-        1    0.000    0.000    0.000    0.000 <frozen abc>:117(__instancecheck__)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/hmac.py:27(HMAC)
-        2    0.000    0.000    0.000    0.000 {built-in method fromtimestamp}
+       30    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:153(__init__)
+      104    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1222(__enter__)
+      218    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:491(_verbose_message)
+        1    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/_core/_ufunc_config.py:459(__call__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:169(_path_isdir)
+        1    0.000    0.000    0.000    0.000 <frozen _collections_abc>:392(__subclasshook__)
+       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:670(_check_name_wrapper)
+       40    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
+      2/1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_parser.py:177(getwidth)
+       26    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:982(find_spec)
+        7    0.000    0.000    0.000    0.000 {method 'isidentifier' of 'str' objects}
+        5    0.000    0.000    0.000    0.000 {method 'close' of '_io.TextIOWrapper' objects}
+        1    0.000    0.000    0.000    0.000 /home/richard/projects/3m/neural_net_comparisons/neural_net_comparisons/benchmark/profiler.py:94(__exit__)
+        6    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:1441(moveto)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/process.py:71(BaseProcess)
+        1    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:438(status_printer)
+       40    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/functools.py:36(update_wrapper)
+      170    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+        1    0.000    0.000    0.000    0.000 {built-in method fcntl.ioctl}
+       21    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/tempfile.py:142(rng)
+       37    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+        6    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 <frozen _collections_abc>:108(_check_methods)
+        2    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/random.py:119(__init__)
+      170    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/tempfile.py:685(SpooledTemporaryFile)
+        2    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/tokenize.py:380(find_cookie)
+       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:48(_new_module)
+        4    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/_core/getlimits.py:721(max)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/context.py:30(BaseContext)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+       41    0.000    0.000    0.000    0.000 {method 'flush' of '_io.TextIOWrapper' objects}
+       26    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:599(__init__)
+        1    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/utils.py:266(_supports_unicode)
+       38    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/__init__.py:23(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/random.py:128(seed)
+        7    0.000    0.000    0.000    0.000 {method '__contains__' of 'frozenset' objects}
+        3    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/contextlib.py:303(helper)
+       24    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+       26    0.000    0.000    0.000    0.000 {built-in method _imp.find_frozen}
       257    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/hmac.py:19(<genexpr>)
       257    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/hmac.py:20(<genexpr>)
-        2    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:1441(moveto)
-        1    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:438(status_printer)
         1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/enum.py:1592(__and__)
-        7    0.000    0.000    0.000    0.000 {method 'isidentifier' of 'str' objects}
-        2    0.000    0.000    0.000    0.000 {method 'readline' of '_io.BufferedReader' objects}
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/context.py:284(SpawnProcess)
-        4    0.000    0.000    0.000    0.000 {method 'match' of 're.Pattern' objects}
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/synchronize.py:370(Barrier)
-       18    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.RLock' objects}
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/util.py:163(register_after_fork)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/context.py:230(DefaultContext)
-        1    0.000    0.000    0.000    0.000 <frozen _collections_abc>:392(__subclasshook__)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/contextlib.py:303(helper)
-        1    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
-       50    0.000    0.000    0.000    0.000 {built-in method posix.fspath}
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/synchronize.py:46(SemLock)
-       18    0.000    0.000    0.000    0.000 {method 'release' of '_thread.RLock' objects}
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/weakref.py:289(update)
-        1    0.000    0.000    0.000    0.000 {built-in method fcntl.ioctl}
-        2    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:1286(fp_write)
-        7    0.000    0.000    0.000    0.000 <frozen codecs>:312(__init__)
-        8    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_parser.py:167(__getitem__)
-        5    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
-       17    0.000    0.000    0.000    0.000 {method 'acquire' of '_multiprocessing.SemLock' objects}
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/process.py:361(_ParentProcess)
-        1    0.000    0.000    0.000    0.000 <frozen _collections_abc>:108(_check_methods)
-        4    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/_core/getlimits.py:721(max)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/random.py:893(getrandbits)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/weakref.py:164(__setitem__)
-        1    0.000    0.000    0.000    0.000 {function Random.seed at 0x7b0672cad120}
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/functools.py:402(__get__)
-        1    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/utils.py:266(_supports_unicode)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/context.py:277(ForkProcess)
-       18    0.000    0.000    0.000    0.000 {method 'flush' of '_io.TextIOWrapper' objects}
-        3    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/warnings.py:425(__init__)
-        1    0.000    0.000    0.000    0.000 {built-in method builtins.all}
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/reduction.py:251(AbstractReducer)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/tempfile.py:475(_TemporaryFileWrapper)
-        7    0.000    0.000    0.000    0.000 {method '__contains__' of 'frozenset' objects}
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/context.py:296(ForkServerProcess)
-        4    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:1157(__hash__)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:1160(daemon)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/contextlib.py:108(__init__)
-        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_md5}
-       43    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:71(_relax_case)
-        3    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
-       16    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1600(<genexpr>)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/synchronize.py:217(Condition)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_parser.py:448(_uniq)
-        7    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/_weakrefset.py:17(__init__)
-       40    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:158(__init__)
-        2    0.000    0.000    0.000    0.000 {built-in method posix.urandom}
-        1    0.000    0.000    0.000    0.000 {built-in method _tracemalloc.start}
-        2    0.000    0.000    0.000    0.000 <string>:1(<lambda>)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/tempfile.py:132(_RandomNameSequence)
-        6    0.000    0.000    0.000    0.000 {built-in method builtins.id}
-        1    0.000    0.000    0.000    0.000 {built-in method builtins.round}
-        5    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_parser.py:260(get)
-        1    0.000    0.000    0.000    0.000 {method 'union' of 'set' objects}
-        2    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/utils.py:187(disable_on_exception)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/tempfile.py:432(_TemporaryFileCloser)
-        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_sha3_224}
-        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_shake_128}
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_compiler.py:214(_compile_charset)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_compiler.py:434(_get_literal_prefix)
-       16    0.000    0.000    0.000    0.000 {built-in method builtins.abs}
-       26    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:412(__init__)
-        1    0.000    0.000    0.000    0.000 {built-in method posix._path_normpath}
-       12    0.000    0.000    0.000    0.000 {built-in method _imp._fix_co_filename}
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/util.py:174(Finalize)
+       26    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
+        1    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/utils.py:213(__init__)
+        1    0.000    0.000    0.000    0.000 <frozen abc>:117(__instancecheck__)
         1    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/utils.py:252(_is_utf)
-        7    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_parser.py:239(__next)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/context.py:203(reducer)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_compiler.py:396(_simple)
-        1    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/utils.py:125(__eq__)
-        3    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/utils.py:152(wrapper_setattr)
-        3    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/enum.py:1574(_get_value)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/synchronize.py:328(Event)
-        5    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/reduction.py:43(register)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/util.py:360(ForkAwareThreadLock)
-       17    0.000    0.000    0.000    0.000 {method 'release' of '_multiprocessing.SemLock' objects}
-        2    0.000    0.000    0.000    0.000 {method 'decode' of 'bytes' objects}
-        1    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/utils.py:156(__init__)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/enum.py:691(__call__)
-       13    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/utils.py:112(__format__)
-        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_sha1}
-       13    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/utils.py:108(__init__)
-        2    0.000    0.000    0.000    0.000 {built-in method atexit.register}
-        5    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/utils.py:222(__eq__)
-        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_sha3_256}
-        3    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:743(<genexpr>)
-        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_shake_256}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.dir}
+       40    0.000    0.000    0.000    0.000 {built-in method _weakref._remove_dead_weakref}
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/weakref.py:104(__init__)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.round}
+        2    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/tokenize.py:374(read_or_stop)
+        2    0.000    0.000    0.000    0.000 {built-in method fromtimestamp}
+        8    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_parser.py:167(__getitem__)
+        1    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.all}
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/tempfile.py:860(TemporaryDirectory)
+        6    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+        7    0.000    0.000    0.000    0.000 <frozen codecs>:312(__init__)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/_weakrefset.py:110(remove)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/hmac.py:27(HMAC)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/random.py:458(choices)
+        3    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/contextlib.py:108(__init__)
+       35    0.000    0.000    0.000    0.000 {built-in method builtins.abs}
+       50    0.000    0.000    0.000    0.000 {built-in method posix.fspath}
+        2    0.000    0.000    0.000    0.000 {method 'readline' of '_io.BufferedReader' objects}
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/random.py:893(getrandbits)
+        4    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/warnings.py:425(__init__)
+        4    0.000    0.000    0.000    0.000 {method 'match' of 're.Pattern' objects}
         7    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/collections/__init__.py:429(<genexpr>)
-        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_sha256}
-        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_sha3_384}
-        1    0.000    0.000    0.000    0.000 {built-in method posix.sysconf}
-        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_sha224}
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/context.py:311(ForkServerContext)
-        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_sha3_512}
-        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_sha384}
-       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1180(__init__)
-        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_sha512}
-       26    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:653(has_location)
+        1    0.000    0.000    0.000    0.000 {built-in method _tracemalloc.start}
+        3    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/util.py:163(register_after_fork)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/synchronize.py:370(Barrier)
+        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_md5}
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/weakref.py:289(update)
+        1    0.000    0.000    0.000    0.000 <frozen posixpath>:375(abspath)
         1    0.000    0.000    0.000    0.000 {built-in method sys._getframemodulename}
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/process.py:346(AuthenticationString)
+       30    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/utils.py:112(__format__)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/synchronize.py:46(SemLock)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_parser.py:448(_uniq)
+        9    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:743(<genexpr>)
+       16    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1600(<genexpr>)
+       24    0.000    0.000    0.000    0.000 <string>:2(__init__)
+        5    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_parser.py:260(get)
+       30    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/utils.py:108(__init__)
+       40    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:158(__init__)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_compiler.py:434(_get_literal_prefix)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/reduction.py:33(ForkingPickler)
+        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_sha384}
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/functools.py:402(__get__)
+        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_sha3_224}
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_compiler.py:214(_compile_charset)
+        2    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:1286(fp_write)
+       11    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/utils.py:222(__eq__)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/weakref.py:164(__setitem__)
+        2    0.000    0.000    0.000    0.000 <string>:1(<lambda>)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/enum.py:691(__call__)
+        1    0.000    0.000    0.000    0.000 {function Random.seed at 0x71c60fbc8ea0}
+       26    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:412(__init__)
+        7    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_parser.py:239(__next)
+        3    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/enum.py:1574(_get_value)
+       43    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:71(_relax_case)
+        6    0.000    0.000    0.000    0.000 {method 'setter' of 'property' objects}
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/synchronize.py:217(Condition)
+       30    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:167(colour)
+        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_sha1}
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/process.py:396(__init__)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/context.py:277(ForkProcess)
+        1    0.000    0.000    0.000    0.000 {method 'union' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/utils.py:156(__init__)
+        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_sha256}
+        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_sha224}
+        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_sha3_256}
+        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_shake_128}
+        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_sha3_384}
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/context.py:220(Process)
+        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_sha512}
         2    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/utils.py:139(__getattr__)
-        1    0.000    0.000    0.000    0.000 {method 'set' of '_contextvars.ContextVar' objects}
-        8    0.000    0.000    0.000    0.000 {method 'random' of '_random.Random' objects}
-       16    0.000    0.000    0.000    0.000 <string>:2(__init__)
-       13    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:167(colour)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/process.py:394(_MainProcess)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:1160(daemon)
+       12    0.000    0.000    0.000    0.000 {built-in method _imp._fix_co_filename}
+        2    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/utils.py:187(disable_on_exception)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/util.py:174(Finalize)
+        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_sha3_512}
+        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_shake_256}
+       26    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:653(has_location)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/tempfile.py:475(_TemporaryFileWrapper)
         1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_parser.py:230(__init__)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/synchronize.py:130(Semaphore)
-        2    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:1153(_comparable)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/weakref.py:347(__new__)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/synchronize.py:191(RLock)
-       16    0.000    0.000    0.000    0.000 {built-in method builtins.globals}
-        2    0.000    0.000    0.000    0.000 {method 'seek' of '_io.BufferedReader' objects}
-        2    0.000    0.000    0.000    0.000 {method 'startswith' of 'bytes' objects}
-        1    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/context.py:284(SpawnProcess)
+        1    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/utils.py:125(__eq__)
+        2    0.000    0.000    0.000    0.000 {built-in method posix.urandom}
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/context.py:230(DefaultContext)
+       30    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:163(colour)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_compiler.py:396(_simple)
+        1    0.000    0.000    0.000    0.000 {method 'set' of '_contextvars.ContextVar' objects}
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/tempfile.py:432(_TemporaryFileCloser)
         1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_compiler.py:465(_get_charset_prefix)
-        4    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_parser.py:163(__len__)
-       16    0.000    0.000    0.000    0.000 <frozen _collections_abc>:345(__subclasshook__)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_parser.py:175(append)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/reduction.py:211(_C)
-       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1013(create_module)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:843(_newname)
+        1    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/synchronize.py:328(Event)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/util.py:360(ForkAwareThreadLock)
+        2    0.000    0.000    0.000    0.000 {method 'find' of 'str' objects}
+        3    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/utils.py:152(wrapper_setattr)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/process.py:361(_ParentProcess)
+       13    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1303(__init__)
         1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/functools.py:66(wraps)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/synchronize.py:90(_make_methods)
-       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1205(get_filename)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/context.py:233(__init__)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/weakref.py:352(__init__)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/context.py:303(ForkContext)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_parser.py:175(append)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/tempfile.py:132(_RandomNameSequence)
+        2    0.000    0.000    0.000    0.000 {method 'decode' of 'bytes' objects}
+       25    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/_core/multiarray.py:690(result_type)
+       16    0.000    0.000    0.000    0.000 {built-in method builtins.globals}
         1    0.000    0.000    0.000    0.000 {built-in method fromkeys}
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/reduction.py:251(AbstractReducer)
+        2    0.000    0.000    0.000    0.000 {built-in method atexit.register}
+        1    0.000    0.000    0.000    0.000 {built-in method posix.sysconf}
         5    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_parser.py:255(match)
-       13    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:163(colour)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/util.py:377(ForkAwareLocal)
-        3    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_parser.py:292(tell)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/synchronize.py:149(BoundedSemaphore)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/context.py:307(SpawnContext)
+       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1180(__init__)
         2    0.000    0.000    0.000    0.000 <frozen abc>:7(abstractmethod)
         3    0.000    0.000    0.000    0.000 <frozen codecs>:334(getstate)
         1    0.000    0.000    0.000    0.000 {method 'difference' of 'set' objects}
-       13    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1303(__init__)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/synchronize.py:166(Lock)
-        2    0.000    0.000    0.000    0.000 {method 'find' of 'str' objects}
-        1    0.000    0.000    0.000    0.000 {built-in method numpy._core._multiarray_umath._make_extobj}
-       10    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/_core/multiarray.py:690(result_type)
-        1    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:1147(__del__)
+        2    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:1153(_comparable)
+       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1013(create_module)
+        3    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_parser.py:292(tell)
+        6    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/utils.py:370(_term_move_up)
         2    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_compiler.py:568(isstring)
-        7    0.000    0.000    0.000    0.000 <frozen codecs>:263(__init__)
-        1    0.000    0.000    0.000    0.000 {method 'reset' of '_contextvars.ContextVar' objects}
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_parser.py:76(__init__)
-        1    0.000    0.000    0.000    0.000 {method 'encode' of 'str' objects}
-        2    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/utils.py:370(_term_move_up)
-        3    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:226(__init__)
-        2    0.000    0.000    0.000    0.000 {built-in method _weakref.proxy}
         2    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/psutil/_common.py:70(memf)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_parser.py:954(fix_flags)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/context.py:17(BufferTooShort)
-        8    0.000    0.000    0.000    0.000 {built-in method math.floor}
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/context.py:14(ProcessError)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/context.py:296(ForkServerProcess)
+        4    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_parser.py:163(__len__)
+       16    0.000    0.000    0.000    0.000 <frozen _collections_abc>:345(__subclasshook__)
+       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1205(get_filename)
+        1    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:1147(__del__)
+        2    0.000    0.000    0.000    0.000 {method 'startswith' of 'bytes' objects}
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_parser.py:76(__init__)
+        2    0.000    0.000    0.000    0.000 {method 'seek' of '_io.BufferedReader' objects}
+        1    0.000    0.000    0.000    0.000 {method 'encode' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/synchronize.py:130(Semaphore)
+        7    0.000    0.000    0.000    0.000 <frozen codecs>:263(__init__)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/weakref.py:347(__new__)
+        8    0.000    0.000    0.000    0.000 {method 'random' of '_random.Random' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method numpy._core._multiarray_umath._make_extobj}
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/synchronize.py:191(RLock)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/synchronize.py:90(_make_methods)
+        1    0.000    0.000    0.000    0.000 {built-in method posix._path_normpath}
+        1    0.000    0.000    0.000    0.000 {method 'reset' of '_contextvars.ContextVar' objects}
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/context.py:203(reducer)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/weakref.py:352(__init__)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:843(_newname)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/process.py:394(_MainProcess)
+        3    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:226(__init__)
+        5    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/reduction.py:43(register)
         2    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_parser.py:82(groups)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_parser.py:954(fix_flags)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/synchronize.py:149(BoundedSemaphore)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/util.py:377(ForkAwareLocal)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/synchronize.py:166(Lock)
         1    0.000    0.000    0.000    0.000 {built-in method posix.getpid}
         2    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_parser.py:112(__init__)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/context.py:20(TimeoutError)
+        2    0.000    0.000    0.000    0.000 {built-in method _weakref.proxy}
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/context.py:311(ForkServerContext)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/process.py:346(AuthenticationString)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/reduction.py:211(_C)
         1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/enum.py:1145(__new__)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/util.py:104(_platform_supports_abstract_sockets)
-        1    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/_pytesttester.py:75(__init__)
+        8    0.000    0.000    0.000    0.000 {built-in method math.floor}
+        1    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/_core/multiarray.py:180(concatenate)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/context.py:303(ForkContext)
         1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/context.py:237(get_context)
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/context.py:23(AuthenticationError)
-        1    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/utils.py:282(_screen_shape_wrapper)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/context.py:233(__init__)
+        1    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/_pytesttester.py:75(__init__)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/context.py:307(SpawnContext)
         1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/context.py:197(get_start_method)
-        1    0.000    0.000    0.000    0.000 {built-in method _tracemalloc.is_tracing}
-        1    0.000    0.000    0.000    0.000 {built-in method _thread.daemon_threads_allowed}
-        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/util.py:48(debug)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/context.py:20(TimeoutError)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/util.py:104(_platform_supports_abstract_sockets)
         2    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_compiler.py:426(_get_iscased)
         1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/re/_parser.py:171(__setitem__)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/context.py:14(ProcessError)
         1    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/_core/_ufunc_config.py:430(__init__)
+        1    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/utils.py:282(_screen_shape_wrapper)
+        1    0.000    0.000    0.000    0.000 {built-in method _tracemalloc.is_tracing}
         1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/process.py:37(current_process)
-        1    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/numpy/_core/multiarray.py:180(concatenate)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/context.py:17(BufferTooShort)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/util.py:48(debug)
+        1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/multiprocessing/context.py:23(AuthenticationError)
+        1    0.000    0.000    0.000    0.000 {built-in method _thread.daemon_threads_allowed}
         1    0.000    0.000    0.000    0.000 /home/richard/.pyenv/versions/3.13.0/lib/python3.13/random.py:907(seed)
         1    0.000    0.000    0.000    0.000 /home/richard/.cache/pypoetry/virtualenvs/neural-net-comparisons-5GTvFZuC-py3.13/lib/python3.13/site-packages/tqdm/std.py:1301(<lambda>)
-   1502/0    0.056    0.000    0.000          /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:1025(_bootstrap_inner)
-   1502/0    0.066    0.000    0.000          /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:998(_bootstrap)
+  20595/0    1.204    0.000    0.000          /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:1025(_bootstrap_inner)
+  20595/0    0.572    0.000    0.000          /home/richard/.pyenv/versions/3.13.0/lib/python3.13/threading.py:998(_bootstrap)
 
 
 
 
 Memory and CPU Statistics:
-Execution Time: 19.55 seconds
+Execution Time: 1871.08 seconds
 Peak Memory Usage: 0.00 MB
-Memory Difference: 42.45 MB
+Memory Difference: 675.14 MB
 CPU Usage: 0.0%
